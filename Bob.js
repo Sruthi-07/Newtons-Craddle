@@ -3,7 +3,7 @@ class Bob {
          var options = { 
             'restitution':1,
             'friction':0,
-            'density':1.3
+            'density':2.5,
         }
   
         this.body = Bodies.rectangle(x, y, width, height, options);
